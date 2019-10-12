@@ -13,9 +13,8 @@
 
 3. terraform init --> Happens one time 
 
-   === 
-   terraforom validate 
-   terraform fmt 
-   terraform plan 
-   terraform apply
+   - terraforom validate 
+   - terraform fmt 
+   - terraform plan 
+   - terraform apply
    
