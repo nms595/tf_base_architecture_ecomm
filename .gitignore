@@ -1,0 +1,16 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.swp
+*.pem
+
+# Crash log files
+crash.log
+
+# keys
+tf_asg-lb-ec/aws-eb
+backend.tf
+
