@@ -3,10 +3,10 @@
 # https://www.terraform.io/docs/providers/aws/r/ami.html
 #########################################################
 resource "aws_vpc" "dm_vpc_res" {
-  cidr_block = "10.20.0.0/16"
+  cidr_block = "${var.cidr_block}"
 
   tags = {
-    "Name" = "dev_env"
+    "Name" = "${var.vpc_name}"
   }
 
 }
